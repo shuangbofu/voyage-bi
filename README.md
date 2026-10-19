@@ -1,4 +1,4 @@
-<p align="center" style="margin:0;"><a href="http://fusb.top:8088/#/home"><img src="http://fusb.top/data/voyage/images/logo2.png" alt="DataEase" width="400" /></a>
+<p align="center" style="margin:0;"><a href="https://bi.fusb.top/#/home"><img src="http://fusb.top/data/voyage/images/logo2.png" alt="DataEase" width="400" /></a>
 </p>
 <h3 align="center" style="margin-top:10px;">可以定制化开发的开源BI平台</h3>
 
@@ -6,7 +6,7 @@
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License"></a>
 <a href="https://github.com/shuangbofu/voyage-bi/stargazers"><img src="https://img.shields.io/github/stars/shuangbofu/voyage-bi" alt="Stars"></a>
 <a href="https://github.com/shuangbofu/voyage-bi/issues"><img src="https://img.shields.io/github/issues/shuangbofu/voyage-bi" alt="Issues"></a>
-<a href="http://fusb.top:8088/#/home"><img src="https://img.shields.io/badge/Demo-Online-green" alt="Demo"></a>
+<a href="https://bi.fusb.top/#/home"><img src="https://img.shields.io/badge/在线试用-Online-green" alt="在线试用"></a>
 </div>
 
 ## Voyage BI是什么？
@@ -138,7 +138,7 @@
 
 ### 在线体验
 
-直接访问 [在线演示](http://fusb.top:8088/#/home) 立即使用。
+直接访问 [在线试用](https://bi.fusb.top/#/home) 立即使用。
 > - 账号：guest
 > - 密码：123456
 
