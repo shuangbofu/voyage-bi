@@ -17,10 +17,11 @@ public class DataSourceConfig {
             config.setUsername(rdsParam.getUsername());
             config.setPassword(rdsParam.getPassword());
 
-            // 设置连接池的参数
-            config.setMaximumPoolSize(100);  // 根据需要调整
-            config.setMinimumIdle(20);       // 根据需要调整
-            config.setIdleTimeout(60000);    // 60秒
+            // 动态数据源按需扩容，避免每个数据源长期占用大量空闲连接。
+            // JVM 系统属性允许部署时调整，无需重新修改源码。
+            config.setMaximumPoolSize(Integer.getInteger("bi.jdbc.pool.maximumPoolSize", 20));
+            config.setMinimumIdle(Integer.getInteger("bi.jdbc.pool.minimumIdle", 1));
+            config.setIdleTimeout(Long.getLong("bi.jdbc.pool.idleTimeout", 60000L));
             config.setConnectionTimeout(30000); // 30秒
             config.setMaxLifetime(1800000);  // 30分钟
 
